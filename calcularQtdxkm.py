@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jun 25 18:33:48 2022
+exercício de: https://youtu.be/47bf2ZLkvxg
 
-@author: danielefis
 """
 
 qtdH = int(input("Informe a quantidade de horas: "))
