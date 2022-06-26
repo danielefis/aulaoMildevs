@@ -14,7 +14,7 @@ desconto = inss + fgts + multa
 salarioFinal = novoSalario-desconto
 print("Salário inicial:", salario)
 print("Salário reajustado:", novoSalario)
-print(f"O desconto do INSS é {fgts} e INSS {inss}")
-print("Valor da multa:", multa)
-print("Total de descontos INSS+FGTS+MULTA",desconto)
-print("Salário final R$", salarioFinal)
+print(f"O desconto do INSS é {inss:.2f} e INSS {fgts:.2f}")
+print(f"Valor da multa R$: {multa:.2f}")
+print(f"Total de descontos de INSS+FGTS+MULTA R$: {desconto:.2f}")
+print(f"Salário final R$: {salarioFinal:.2f}")
