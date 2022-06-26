@@ -9,7 +9,10 @@ aumento = salario * 0.15
 novoSalario = aumento+salario
 inss = novoSalario * 0.11
 fgts = novoSalario * 0.08
-multa = float(input("Digite o  valor da multa: "))
+if novoSalario >= 1000: #SE O SALARIO REAJUSTADO FOR MAIOR QUE 1000 VC É MULTADO! :P
+    multa = float(input("Digite o  valor da multa: "))
+else:
+    multa = 0
 desconto = inss + fgts + multa
 salarioFinal = novoSalario-desconto
 print("Salário inicial:", salario)
