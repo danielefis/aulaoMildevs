@@ -9,11 +9,12 @@ aumento = salario * 0.15
 novoSalario = aumento+salario
 inss = novoSalario * 0.11
 fgts = novoSalario * 0.08
-desconto = inss + fgts
+multa = float(input("Digite o  valor da multa: "))
+desconto = inss + fgts + multa
 salarioFinal = novoSalario-desconto
 print("Salário inicial:", salario)
 print("Salário reajustado:", novoSalario)
-print("Desconto 11% INS R$:", inss)
-print("Desconto 8% FGTS R$:", fgts)
-print("Total de descontos INSS+FGTS R$", desconto)
+print(f"O desconto do INSS é {fgts} e INSS {inss}")
+print("Valor da multa:", multa)
+print("Total de descontos INSS+FGTS+MULTA",desconto)
 print("Salário final R$", salarioFinal)
