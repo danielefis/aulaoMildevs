@@ -8,4 +8,6 @@ saldo = 200
 pagar = float(input("Valor a pagar: "))
 if saldo >= pagar:
     novo_saldo = (saldo - pagar)
-    print("Seu saldo atual é: ", novo_saldo)
+    print("Seu saldo atual é R$: ", novo_saldo)
+else:
+    print("Saldo insuficiente!")
