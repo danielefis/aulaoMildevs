@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : RogÃ©rio Ribeiro
+// DescriÃ§Ã£o   : Calcular nota final
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 28/06/2022
 // aula be mesttra no Youtube youtu.be/kRL-iAjaqz8
@@ -13,7 +13,7 @@ trabalho1: real
 trabalho2: real
 diferenca: real
 NotaFinal: real
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 
 Inicio
@@ -31,20 +31,20 @@ leia(prova2)
 NotaFinal <- (trabalho1 + prova1 + trabalho2 + prova2)
 diferenca <- (10 - NotaFinal)
 
-escreva("Aluno ", (NomeAluno), " Sua nota é: ", (NotaFinal), " ")
+escreva("Aluno ", (NomeAluno), " Sua nota Ã©: ", (NotaFinal), " ")
 se (NotaFinal >= 6) entao
-    escreva(NomeAluno, " você foi aprovado! ")
+    escreva(NomeAluno, " vocÃª foi aprovado! ")
 senao
 se (NotaFinal >= 3) e (NotaFinal < 6) entao
-     escreva(NomeAluno, " você está de recuperação! ")
+     escreva(NomeAluno, " vocÃª estÃ¡ de recuperaÃ§Ã£o! ")
   senao
-    escreva (NomeAluno, " você foi reprovado! ")
+    escreva (NomeAluno, " vocÃª foi reprovado! ")
   fimse
  fimse
 
       
 
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 
 Fimalgoritmo
