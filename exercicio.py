@@ -3,4 +3,4 @@ b = 6
 c = 2
 d = 9
 
-print (float(c * (b - a)) <= (d - b /c))
+print (int(c * (b - a)) <= (d - b /c))
